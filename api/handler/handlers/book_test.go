@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/your_project/models" //
+	"github.com/VladimirSharipov/Todo-golang/internal/models" //
 )
 
 func TestGetBooks(t *testing.T) {

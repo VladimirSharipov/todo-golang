@@ -1,7 +1,7 @@
 package main
 
 import (
-	db "Todo-golang/internal/database"
+	db "github.com/VladimirSharipov/Todo-golang/internaldatabase"
 	"log"
 	"net/http"
 

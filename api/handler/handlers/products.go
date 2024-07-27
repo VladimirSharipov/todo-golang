@@ -5,8 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"yourmodule/db"
-	"yourmodule/models"
+	"github.com/VladimirSharipov/Todo-golang/internal/models"
 )
 
 func HandleProducts(w http.ResponseWriter, r *http.Request) {
