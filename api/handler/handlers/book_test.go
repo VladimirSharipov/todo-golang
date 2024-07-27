@@ -1,14 +1,11 @@
 package handlers
 
 import (
-	_ "database/sql"
 	"encoding/json"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
-
-	"github.com/VladimirSharipov/Todo-golang/internal/models" //
 )
 
 func TestGetBooks(t *testing.T) {

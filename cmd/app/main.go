@@ -1,11 +1,10 @@
 package main
 
 import (
-	db "github.com/VladimirSharipov/Todo-golang/internaldatabase"
+	"github.com/VladimirSharipov/todo-golang/api/handler/handlers"
+	db "github.com/VladimirSharipov/todo-golang/internal/database"
 	"log"
 	"net/http"
-
-	"github.com/VladimirSharipov/Todo-golang/handler/handlers"
 )
 
 func main() {

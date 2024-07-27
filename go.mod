@@ -1,4 +1,4 @@
-module Todo
+module github.com/VladimirSharipov/todo-golang
 
 go 1.22.4
 

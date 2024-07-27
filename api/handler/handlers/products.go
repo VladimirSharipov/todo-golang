@@ -2,10 +2,10 @@ package handlers
 
 import (
 	"encoding/json"
+	db "github.com/VladimirSharipov/todo-golang/internal/database"
+	models "github.com/VladimirSharipov/todo-golang/internal/model"
 	"net/http"
 	"strconv"
-
-	"github.com/VladimirSharipov/Todo-golang/internal/models"
 )
 
 func HandleProducts(w http.ResponseWriter, r *http.Request) {
